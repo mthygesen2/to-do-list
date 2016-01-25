@@ -4,3 +4,6 @@ function toDo (task, timeOfDay, frequency, timeLength) {
   this.frequency = frequency;
   this.timeLength = timeLength;
 };
+toDo.prototype.taskFrequency = function(task, frequency) {
+  return this.task + ", " + this.frequency;
+};
