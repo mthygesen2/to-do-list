@@ -7,3 +7,7 @@ function toDo (task, timeOfDay, frequency, timeLength) {
 toDo.prototype.taskFrequency = function(task, frequency) {
   return this.task + ", " + this.frequency;
 };
+
+$(document).ready(function(event) {
+
+})
